@@ -1,8 +1,10 @@
-#include <stdio.h> 
+#include <stdio.h>
+#include "./headers/parser.h" 
   
 int main(void)
 {
-    printf("Hello, World!\n");
+    const char * test = parse("Test");
+    printf("%s\n", test);
 
     return 0;
 }

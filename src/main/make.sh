@@ -1,0 +1,1 @@
+gcc lo.c ./headers/parser.c -o proj
